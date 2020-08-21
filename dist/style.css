@@ -1,7 +1,7 @@
 html {
   font-size: small;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   height: 100%;
 }
 
@@ -9,7 +9,7 @@ html {
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -43,26 +43,26 @@ a:hover {
 
 .flex-jc-sb {
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .flex-jc-c {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-jc-r {
   -webkit-box-pack: right;
-  -ms-flex-pack: right;
-  justify-content: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .flex-ai-c {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header nav {
@@ -73,14 +73,14 @@ a:hover {
 
 .header__right {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .header__links-left {
   -webkit-box-flex: 80%;
-  -ms-flex: 80%;
-  flex: 80%;
+      -ms-flex: 80%;
+          flex: 80%;
 }
 
 .header__links-left a {
@@ -98,7 +98,7 @@ a:hover {
 .header__9box {
   background-position: -132px -38px;
   opacity: 0.55;
-  background-image: url("/app/img/i1_1967ca6a.png");
+  background-image: url("app/img/i1_1967ca6a.png");
   background-size: 528px 68px;
   display: inline-block;
   outline: none;
@@ -108,7 +108,7 @@ a:hover {
   vertical-align: middle;
   border-radius: 2px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   height: 30px;
   width: 30px;
   white-space: nowrap;
@@ -135,24 +135,24 @@ a:hover {
   display: grid;
   min-height: 10vh;
   -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+      grid-template-columns: 1fr;
 }
 
 .focus__logo {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   padding-top: 135px;
 }
 
 .focus__searchbar {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   margin-top: 22px;
   width: 582px;
   height: 46px;
   border: 1px solid #dfe1e5;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-radius: 24px;
 }
 
@@ -166,7 +166,7 @@ a:hover {
 .focus__searchbar .icon {
   background-position: -240px -32px;
   opacity: 0.35;
-  background-image: url("/app/img/i1_1967ca6a.png");
+  background-image: url("app/img/i1_1967ca6a.png");
   background-size: 528px 68px;
   display: inline-block;
   outline: none;
@@ -176,7 +176,7 @@ a:hover {
   vertical-align: middle;
   border-radius: 2px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   height: 30px;
   width: 30px;
   white-space: nowrap;
@@ -185,7 +185,7 @@ a:hover {
 
 .focus__search-buttons {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -205,14 +205,14 @@ a:hover {
   text-align: center;
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .focus__search-buttons :hover {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   background-color: #f8f8f8;
   border: 1px solid #c6c6c6;
   color: #222;
