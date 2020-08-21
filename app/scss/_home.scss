@@ -1,0 +1,71 @@
+.focus {
+  display: grid;
+  min-height: 10vh;
+  grid-template-columns: 1fr;
+  &__logo {
+    justify-self: center;
+    padding-top: 135px;
+  }
+  &__searchbar {
+    justify-self: center;
+    margin-top: 22px;
+    width: 582px;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+
+    input {
+      //You have to edit the content inside the div separate from the div, dingus.
+      width: 527px;
+      margin-left: 5px;
+      margin-top: 15px;
+      border: none;
+    }
+    .icon {
+      background-position: -240px -32px;
+      opacity: 0.35;
+      background-image: url("/app/img/i1_1967ca6a.png");
+      background-size: 528px 68px;
+      display: inline-block;
+      outline: none;
+      outline-color: currentcolor;
+      outline-style: none;
+      outline-width: medium;
+      vertical-align: middle;
+      border-radius: 2px;
+      box-sizing: border-box;
+      height: 30px;
+      width: 30px;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+  }
+  &__search-buttons {
+    justify-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    button {
+      background-color: #f2f2f2;
+      border: 1px solid #f2f2f2;
+      border-radius: 4px;
+      color: #5f6368;
+      font-family: arial, sans-serif;
+      font-size: 14px;
+      margin: 11px 4px;
+      padding: 0 16px;
+      line-height: 27px;
+      height: 36px;
+      min-width: 54px;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    :hover {
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      background-color: #f8f8f8;
+      border: 1px solid #c6c6c6;
+      color: #222;
+    }
+  }
+}
